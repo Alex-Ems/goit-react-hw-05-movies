@@ -34,7 +34,8 @@ export default function MovieDetails() {
 
     const { genres, overview, vote_average, title, poster_path } = movie;
 
-    return (
+  return (
+    window.scrollTo({top: 0}) ||
       <main className="containerMain">
         <button
           className="navLink"
