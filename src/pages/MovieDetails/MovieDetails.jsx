@@ -67,8 +67,6 @@ export default function MovieDetails() {
           <NavLink className="navLink" to="reviews">
             Reviews
           </NavLink>
-          {/* <StyledLink to="cast">Cast</StyledLink>
-                <StyledLink to="reviews">Reviews</StyledLink> */}
         </div>
         <Suspense fallback={<div>...Loading</div>}>
           <Outlet />
